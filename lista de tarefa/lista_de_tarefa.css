@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(to left, blue, red);
+}
+#conteiner{
+    text-align: center;
+    background-color: inherit;
+}
+
+input{
+    width: 600px;
+    height: 40px;
+    border: none;
+
+}
+.excluir, .concluida{
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+.adicionar{
+    background-color: rgb(61, 0, 117);
+    height: 43px;
+    width: 43px;
+    border: none;
+}
+.concluida{
+    background-color: green;
+}
+.excluir{
+    background-color: red;
+}
+.lista{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 325px;
+}
+.adicionar_lista{
+    display: flex;
+    margin-left: 325px;
+
+
+}
+.tarefa{
+    width: 605px;
+    height: 40px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    
+}
