@@ -11,7 +11,17 @@ var adicionar = document.querySelector(".adicionar").addEventListener("click", f
     numlista++
 })
 function concluida(n){
-    tarefa[n].style.textDecoration = "line-through"
+    if(tarefa[n].style.textDecoration != "line-through"){
+        tarefa[n].style.textDecoration = "line-through"
+        tarefa[n].style.backgroundColor = "rgb(114, 230, 114)"
+        tarefa[n].style.color = "white"
+
+    }else{
+        tarefa[n].style.textDecoration = "none"
+        tarefa[n].style.backgroundColor = "white"
+        tarefa[n].style.color = "black"
+
+    }
 
 }
 
