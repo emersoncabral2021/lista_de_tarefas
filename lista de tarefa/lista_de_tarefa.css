@@ -30,6 +30,8 @@ input{
     background-color: rgb(61, 0, 117);
     height: 43px;
     width: 43px;
+    border-radius: 0px 10px 10px 0px;
+
     border: none;
 }
 .concluida{
@@ -37,18 +39,23 @@ input{
 }
 .excluir{
     background-color: red;
+    border-radius: 0px 10px 10px 0px;
+
 }
 .lista{
     display: flex;
     margin-top: 15px;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .adicionar_lista{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+
 
 }
 .tarefa{
@@ -61,6 +68,8 @@ input{
     font-family: 'Benne', serif;
     justify-content: center;
     align-items: center;
+    border-radius: 10px 0px 0px 10px;
+
     
     
 }
@@ -69,4 +78,6 @@ section h1, section h2{
     font-size: 25px;
     font-family: 'Courgette', 'cursive';
 }
-
+.texto_tarefa{
+    border-radius: 10px 0px 0px 10px;
+}
