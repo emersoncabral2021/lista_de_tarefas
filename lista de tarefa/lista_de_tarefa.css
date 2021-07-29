@@ -28,7 +28,7 @@ input{
 .adicionar{
     color: white;
     background-color: rgb(61, 0, 117);
-    height: 43px;
+    height: 47px;
     width: 43px;
     border-radius: 0px 10px 10px 0px;
 
@@ -36,10 +36,18 @@ input{
 }
 .concluida{
     background-color: green;
+    padding-top:5px ;
+    height: 47px;
+
+
 }
 .excluir{
     background-color: red;
     border-radius: 0px 10px 10px 0px;
+    padding-top:5px ;
+    height: 47px;
+
+
 
 }
 .lista{
@@ -69,6 +77,7 @@ input{
     justify-content: center;
     align-items: center;
     border-radius: 10px 0px 0px 10px;
+    padding-top:5px ;
 
     
     
@@ -80,4 +89,5 @@ section h1, section h2{
 }
 .texto_tarefa{
     border-radius: 10px 0px 0px 10px;
+    padding-top:5px ;
 }
